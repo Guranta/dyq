@@ -1,8 +1,8 @@
-# boltyapiEx 项目协作守则
+# 大云雀项目协作守则
 
-本文档定义 boltyapiEx 项目的协作规范，适用于所有 AI Agent 和人类开发者。
+本文档定义大云雀项目的协作规范，适用于所有 AI Agent 和人类开发者。
 
-**项目定位**：基于 Next.js 构建的 new-api 功能扩展平台，通过调用 new-api 暴露的 API 实现增强功能。
+**项目定位**：基于 Next.js 与 FastAPI 构建的 AI 视频、图片与短剧创作平台，通过多供应商 API 适配层接入不同中转供应商和模型能力。
 
 ## 协作守则（HARD RULES）
 
@@ -145,8 +145,9 @@
 - **动画**：framer-motion
 - **图标**：lucide-react
 - **导出**：exceljs（Excel）+ 原生 CSV
-- **外部 API**：new-api 服务（通过 API Route 代理调用）
-- **数据库**：无（纯代理模式，PostgreSQL 预留在 `docker-compose.yml` 中供未来扩展）
+- **后端**：FastAPI + Python
+- **外部 API**：多供应商 AI API（通过 Provider 适配层统一调用）
+- **数据库**：SQLite（主数据）+ Redis（任务队列、状态、限流）+ 本地文件存储
 - **部署**：Docker Compose，端口 3300
 - **版本控制**：Git + GitHub
 

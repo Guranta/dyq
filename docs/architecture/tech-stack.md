@@ -1,6 +1,6 @@
 # 技术栈
 
-本文档记录 boltyapiEx 当前约定的技术栈。协作守则见 [CLAUDE.md](../../CLAUDE.md)，文档总索引见 [docs/README.md](../README.md)。
+本文档记录大云雀当前约定的技术栈。协作守则见 [CLAUDE.md](../../CLAUDE.md)，文档总索引见 [docs/README.md](../README.md)。
 
 ## 前端
 
@@ -10,6 +10,12 @@
 - **动画**：framer-motion
 - **图标**：lucide-react
 
+## 后端
+
+- **框架**：FastAPI + Python
+- **认证**：JWT
+- **任务**：Redis 队列与轮询状态
+
 ## 数据导出
 
 - **Excel**：exceljs
@@ -17,12 +23,14 @@
 
 ## 外部 API
 
-- **new-api 服务**：通过 Next.js API Route 代理调用。
+- **多供应商 AI API**：通过 Provider 适配层统一调用。
+- **供应商配置**：由管理员在后台维护 URL、Key、模型能力、成本、优先级与降级策略。
 
 ## 数据库
 
-- 当前为**无数据库纯代理模式**。
-- `docker-compose.yml` 中预留 PostgreSQL，供未来扩展使用。
+- **SQLite**：用户、配额、项目、模板、供应商、模型、任务等主数据。
+- **Redis**：任务队列、任务状态、限流与缓存。
+- **本地文件存储**：用户上传素材、生成结果与导出文件。
 
 ## 部署
 
