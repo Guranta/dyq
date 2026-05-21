@@ -8,3 +8,4 @@ exports/
 data/
 node_modules/
 .next/
+*.tsbuildinfo
