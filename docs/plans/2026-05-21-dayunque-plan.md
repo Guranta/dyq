@@ -34,8 +34,8 @@
 
 ### 任务
 
-- [ ] 初始化 Next.js 16 App Router + TypeScript。
-- [ ] 配置 Tailwind CSS v4 与基础 UI 结构。
+- [x] 初始化 Next.js 16 App Router + TypeScript。
+- [x] 配置 Tailwind CSS v4 与基础 UI 结构。
 - [x] 初始化 FastAPI 服务。
 - [x] 实现 `GET /api/v1/health`。
 - [ ] 配置 Docker Compose：`web`、`server`、`redis`。
@@ -46,14 +46,14 @@
 ### 验收标准
 
 - [ ] `docker compose up` 可以启动前端、后端和 Redis。
-- [ ] 前端首页可访问。
+- [x] 前端首页可访问。
 - [x] 后端 health 接口返回正常。
-- [ ] 前端可请求后端 health 接口。
+- [x] 前端可请求后端 health 接口。
 
 ### 测试
 
 - [x] 后端 health 单元测试。
-- [ ] 前端基础页面 smoke test。
+- [x] 前端基础页面 smoke test。
 
 ## 4. P1：用户系统与管理员创建用户
 
@@ -131,9 +131,9 @@
 - [x] 实现同步/异步 Provider 统一任务状态。
 - [ ] 实现供应商失败后的降级尝试。
 - [ ] 实现配额扣减与日志记录。
-- [ ] 前端实现 `/create/image`。
-- [ ] 前端实现 `/create/video`。
-- [ ] 前端实现任务轮询 UI。
+- [x] 前端实现 `/create/image`。
+- [x] 前端实现 `/create/video`。
+- [x] 前端实现任务轮询 UI。
 
 ### 验收标准
 
