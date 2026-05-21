@@ -9,6 +9,7 @@
 
 ## 架构文档
 
+- [后端 AI 调用接口 MVP](./architecture/backend-api-mvp.md)
 - [技术栈](./architecture/tech-stack.md)
 
 ## 设计文档
