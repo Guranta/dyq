@@ -20,6 +20,7 @@
 ## 计划文档
 
 - [大云雀实施计划](./plans/2026-05-21-dayunque-plan.md)
+- [电商业务任务接口 MVP 执行计划](./plans/2026-05-24-ecommerce-task-mvp-plan.md)
 
 ## 规范文档
 
