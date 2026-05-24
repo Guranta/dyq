@@ -14,6 +14,7 @@
 ## 设计文档
 
 - [大云雀产品与系统设计](./specs/2026-05-21-dayunque-design.md)
+- [绘蛙 ihuiwa.com 功能与后端接口研究](./specs/2026-05-24-ihuiwa-research.md)
 
 ## 计划文档
 
