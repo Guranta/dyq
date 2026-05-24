@@ -15,6 +15,7 @@
 
 - [大云雀产品与系统设计](./specs/2026-05-21-dayunque-design.md)
 - [绘蛙 ihuiwa.com 功能与后端接口研究](./specs/2026-05-24-ihuiwa-research.md)
+- [电商场景中转供应商接口设计：Image2 与 Seedance](./specs/2026-05-24-ecommerce-provider-api-design.md)
 
 ## 计划文档
 
